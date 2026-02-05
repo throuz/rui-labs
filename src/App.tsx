@@ -44,7 +44,7 @@ function App() {
           <h2 className="sectionTitle">What you get</h2>
           <div className="sectionBody">
             <p className="lead">
-              We ship lightweight MVP products: small utilities, templates, and
+              I ship lightweight MVP products: small utilities, templates, and
               experiments you can actually use.
             </p>
             <ul className="bullets">
@@ -58,7 +58,7 @@ function App() {
         <section id="products" className="section">
           <div className="sectionHeaderRow">
             <h2 className="sectionTitle">Product list (starting small)</h2>
-            <span className="sectionHint">We’ll keep shipping and expanding.</span>
+            <span className="sectionHint">I’ll keep shipping and expanding.</span>
           </div>
 
           <div className="grid">
@@ -104,7 +104,7 @@ function App() {
               {SUPPORT_EMAIL}
             </a>
             <div className="footerText">
-              We respond to support requests as soon as possible.
+              I respond to support requests as soon as possible.
             </div>
           </div>
 
@@ -124,8 +124,7 @@ function App() {
           <div>
             <div className="footerTitle">Quick note</div>
             <div className="footerText">
-              If you have billing issues, include your receipt email so we can help
-              quickly.
+              If you have billing issues, include your receipt email so I can help quickly.
             </div>
           </div>
         </div>
