@@ -2,9 +2,10 @@
   min-height: 100vh;
   color: rgba(255, 255, 255, 0.92);
   background:
-    radial-gradient(1200px 600px at 20% 0%, rgba(126, 87, 255, 0.28), transparent 60%),
-    radial-gradient(900px 500px at 90% 10%, rgba(60, 214, 255, 0.18), transparent 55%),
-    linear-gradient(180deg, #070a12 0%, #050712 100%);
+    radial-gradient(1100px 560px at 18% 0%, rgba(255, 48, 86, 0.26), transparent 60%),
+    radial-gradient(900px 520px at 92% 12%, rgba(255, 0, 62, 0.16), transparent 58%),
+    radial-gradient(700px 420px at 55% 16%, rgba(255, 140, 120, 0.08), transparent 62%),
+    linear-gradient(180deg, #07060b 0%, #05040a 100%);
 }
 
 .header {
@@ -32,7 +33,7 @@
   width: 14px;
   height: 14px;
   border-radius: 5px;
-  background: linear-gradient(135deg, #7e57ff, #3cd6ff);
+  background: linear-gradient(135deg, #ff2a4d, #ff6a3d);
   box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.06);
 }
 
@@ -58,8 +59,8 @@
 }
 
 .navLink:hover {
-  border-color: rgba(255, 255, 255, 0.12);
-  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 42, 77, 0.28);
+  background: rgba(255, 42, 77, 0.08);
 }
 
 .main {
@@ -72,7 +73,9 @@
   padding: 38px 22px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 18px;
-  background: rgba(255, 255, 255, 0.03);
+  background:
+    radial-gradient(700px 280px at 25% 0%, rgba(255, 42, 77, 0.14), transparent 62%),
+    rgba(255, 255, 255, 0.03);
 }
 
 .heroTitle {
@@ -101,8 +104,8 @@
   font-size: 12px;
   padding: 7px 10px;
   border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 42, 77, 0.22);
+  background: rgba(255, 42, 77, 0.08);
   color: rgba(255, 255, 255, 0.85);
 }
 
@@ -165,6 +168,10 @@
   background: rgba(255, 255, 255, 0.03);
 }
 
+.card:hover {
+  border-color: rgba(255, 42, 77, 0.24);
+}
+
 .cardTitle {
   margin: 0;
   font-size: 14px;
@@ -185,8 +192,8 @@
   margin-top: 14px;
   padding: 12px 14px;
   border-radius: 14px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 42, 77, 0.22);
+  background: rgba(255, 42, 77, 0.08);
   color: rgba(255, 255, 255, 0.82);
   font-size: 13px;
 }
