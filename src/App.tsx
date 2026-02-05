@@ -3,6 +3,7 @@ import './App.css'
 function App() {
   const BRAND_NAME = 'Rui Labs'
   const SUPPORT_EMAIL = 'zed2786328@gmail.com'
+  const BASE = import.meta.env.BASE_URL
 
   return (
     <div className="page">
@@ -18,10 +19,10 @@ function App() {
           <a className="navLink" href="#support">
             Support
           </a>
-          <a className="navLink" href="/privacy.html">
+          <a className="navLink" href={`${BASE}privacy.html`}>
             Privacy
           </a>
-          <a className="navLink" href="/terms.html">
+          <a className="navLink" href={`${BASE}terms.html`}>
             Terms
           </a>
         </nav>
@@ -110,13 +111,13 @@ function App() {
 
           <div>
             <div className="footerTitle">Policies</div>
-            <a className="footerLink" href="/refund.html">
+            <a className="footerLink" href={`${BASE}refund.html`}>
               Refund policy
             </a>
-            <a className="footerLink" href="/privacy.html">
+            <a className="footerLink" href={`${BASE}privacy.html`}>
               Privacy policy
             </a>
-            <a className="footerLink" href="/terms.html">
+            <a className="footerLink" href={`${BASE}terms.html`}>
               Terms of service
             </a>
           </div>
